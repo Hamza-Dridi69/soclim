@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#172b3a">
+
+  <title>SoClim | Climatisation à Lyon et alentours</title>
+  <meta
+    name="description"
+    content="SoClim vous accompagne pour l'installation, l'entretien et le dépannage de votre climatisation à Lyon et ses alentours."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="logo" href="#accueil" aria-label="SoClim, accueil">
+        SoClim<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Nos services</a>
+        <a href="#apropos">Notre approche</a>
+        <a href="#zone">Zone d'intervention</a>
+        <a class="nav-cta" href="#contact">Parlons de votre projet ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="hero-image" aria-hidden="true"></div>
+
+      <div class="hero-content container">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          VOTRE CONFORT, NOTRE PRIORITÉ
+        </p>
+
+        <h1>
+          Le confort idéal,<br>
+          <span>en toute saison.</span>
+        </h1>
+
+        <p class="hero-description">
+          Installation, entretien et dépannage de climatisation.
+          Des solutions adaptées à votre intérieur et à vos besoins.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">
+            Demander un devis <span>↗</span>
+          </a>
+          <a class="button button-secondary" href="#services">
+            Découvrir nos services
+          </a>
+        </div>
+
+        <div class="hero-location">
+          <span aria-hidden="true">⌖</span>
+          Lyon et ses alentours
+        </div>
+      </div>
+
+      <div class="hero-index" aria-hidden="true">SOCLIM — 01 / 03</div>
+    </section>
+
+    <!-- BANDEAU -->
+    <section class="trust-strip" aria-label="Nos prestations">
+      <div class="container trust-items">
+        <span>Installation</span>
+        <span class="trust-separator">✳</span>
+        <span>Entretien</span>
+        <span class="trust-separator">✳</span>
+        <span>Dépannage</span>
+        <span class="trust-separator">✳</span>
+        <span>Lyon & alentours</span>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CE QUE NOUS FAISONS</p>
+          <h2>Une solution pour<br>chaque <span>saison.</span></h2>
+          <p class="section-intro">
+            De votre premier projet à l'entretien de votre installation,
+            SoClim vous accompagne à chaque étape.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-number">01 / INSTALLATION</div>
+            <div class="service-icon" aria-hidden="true">↗</div>
+            <h3>Installation</h3>
+            <p>
+              Une solution de climatisation pensée selon votre espace,
+              vos besoins et les caractéristiques de votre logement.
+            </p>
+            <a href="#contact" class="text-link">
+              Étudier mon projet <span>↗</span>
+            </a>
+          </article>
+
+          <article class="service-card service-card-featured">
+            <div class="service-number">02 / ENTRETIEN</div>
+            <div class="service-icon" aria-hidden="true">✳</div>
+            <h3>Entretien</h3>
+            <p>
+              Prenez soin de votre équipement grâce à un entretien
+              adapté à votre installation et à ses recommandations.
+            </p>
+            <a href="#contact" class="text-link">
+              Entretenir mon équipement <span>↗</span>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">03 / DÉPANNAGE</div>
+            <div class="service-icon" aria-hidden="true">⌁</div>
+            <h3>Dépannage</h3>
+            <p>
+              Un dysfonctionnement ? Décrivez-nous le problème afin
+              d'étudier votre demande et les solutions possibles.
+            </p>
+            <a href="#contact" class="text-link">
+              Décrire mon problème <span>↗</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROCHE -->
+    <section class="section approach-section" id="apropos">
+      <div class="container approach-grid">
+        <div class="approach-visual">
+          <img
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=85"
+            alt="Intérieur contemporain lumineux aux lignes épurées"
+            loading="lazy"
+          >
+          <div class="visual-caption">
+            <span class="caption-dot"></span>
+            Le confort commence par un projet bien pensé.
+          </div>
+        </div>
+
+        <div class="approach-content">
+          <p class="eyebrow">L'ESPRIT SOCLIM</p>
+          <h2>Le bon conseil.<br>Le <span>travail soigné.</span></h2>
+
+          <p>
+            Chaque intérieur est différent. C'est pourquoi le choix
+            d'une climatisation commence par l'écoute de vos besoins
+            et l'étude de votre projet.
+          </p>
+
+          <div class="approach-point">
+            <span class="point-number">01</span>
+            <div>
+              <h3>Une approche personnalisée</h3>
+              <p>Des recommandations adaptées à votre situation.</p>
+            </div>
+          </div>
+
+          <div class="approach-point">
+            <span class="point-number">02</span>
+            <div>
+              <h3>Une attention aux détails</h3>
+              <p>Une installation pensée pour votre intérieur.</p>
+            </div>
+          </div>
+
+          <div class="approach-point">
+            <span class="point-number">03</span>
+            <div>
+              <h3>Un interlocuteur de proximité</h3>
+              <p>Un contact direct pour échanger sur votre demande.</p>
+            </div>
+          </div>
+
+          <a class="button button-dark" href="#contact">
+            Échangeons sur votre projet <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZONE -->
+    <section class="zone-section" id="zone">
+      <div class="container zone-content">
+        <p class="eyebrow">UN SERVICE DE PROXIMITÉ</p>
+        <h2>À Lyon et<br><span>dans ses alentours.</span></h2>
+        <p>
+          Vous avez un projet de climatisation dans la région lyonnaise ?
+          Contactez SoClim pour échanger sur votre besoin et vérifier
+          la disponibilité dans votre commune.
+        </p>
+        <a class="button button-light" href="#contact">
+          Parlons de votre projet <span>↗</span>
+        </a>
+      </div>
+      <div class="zone-decoration" aria-hidden="true">69</div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">VOTRE PROJET COMMENCE ICI</p>
+          <h2>Parlons de<br><span>votre confort.</span></h2>
+          <p>
+            Une installation à prévoir, un entretien ou une panne ?
+            Décrivez-nous votre besoin pour préparer un premier échange.
+          </p>
+
+          <div class="contact-note">
+            <span aria-hidden="true">↗</span>
+            <div>
+              <strong>Un projet, une question ?</strong>
+              <p>Chaque demande commence par une conversation.</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Votre nom</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jean Dupont"
+                autocomplete="name"
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Téléphone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="06 00 00 00 00"
+                autocomplete="tel"
+                required
+              >
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="service">Votre besoin</label>
+            <select id="service" name="service" required>
+              <option value="">Sélectionnez une prestation</option>
+              <option value="Installation">Installation</option>
+              <option value="Entretien">Entretien</option>
+              <option value="Dépannage">Dépannage</option>
+              <option value="Autre demande">Autre demande</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="city">Votre commune</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="Ex. Lyon, Villeurbanne..."
+              autocomplete="address-level2"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="message">Parlez-nous de votre projet</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Quelques détails sur votre besoin..."
+              required
+            ></textarea>
+          </div>
+
+          <button class="button button-dark form-submit" type="submit">
+            Préparer ma demande <span>↗</span>
+          </button>
+
+          <p class="form-notice" id="form-notice" role="status" aria-live="polite">
+            Le formulaire de démonstration n'envoie pas encore de message.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="logo logo-footer" href="#accueil">SoClim<span>.</span></a>
+      <p>Le confort idéal, en toute saison.</p>
+      <a href="#contact">Un projet ? Parlons-en ↗</a>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> SoClim. Tous droits réservés.</p>
+      <a href="#" aria-label="Mentions légales à compléter">Mentions légales</a>
+    </div>
+  </footer>
+</body>
+</html>
